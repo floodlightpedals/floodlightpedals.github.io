@@ -31,7 +31,7 @@ header {
     text-decoration: none;
 }
 
-@media only screen and (min-width: 409px) {
+@media only screen and (min-width: 500px) {
 
     header {
         height: 5rem;

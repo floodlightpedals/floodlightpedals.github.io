@@ -42,7 +42,7 @@
     margin: 1.5rem 1.5rem 1rem 0;
 }
 
-@media only screen and (min-width: 409px) {
+@media only screen and (min-width: 500px) {
   
     #menu-btn {
         font-size: 3rem;

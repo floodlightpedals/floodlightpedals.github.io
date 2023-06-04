@@ -7,7 +7,7 @@ function FloatingEmailButton() {
         <a id="fab" href="mailto:floodlight.pedals@gmail.com">
             <FontAwesomeIcon
                 icon={faEnvelope}
-                size='3x'
+                size='2x'
                 id='fab-icon'
             />
         </a>

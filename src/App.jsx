@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About/About';
+import FloatingEmailButton from './components/FloatingEmailButton/FloatingEmailButton';
 // import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Mods from './components/Mods/Mods';
@@ -19,6 +20,7 @@ function App() {
                     <Route path='/mods/:productKey' element={<ProductDetail />} />
                 </Routes>
             </main>
+            <FloatingEmailButton />
             {/* <Footer /> */}
         </div>
     );

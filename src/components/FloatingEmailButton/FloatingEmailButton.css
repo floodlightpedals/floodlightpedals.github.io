@@ -10,4 +10,24 @@
     border-radius: 50%;
     width: 58px;
     height: 58px;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 750px) {
+
+    #fab {
+        bottom: 40px;
+        right: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 1080px) {
+
+    #fab {
+        width: 83px;
+        height: 83px;
+        font-size: 1.5rem;
+    }
+
 }

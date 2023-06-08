@@ -7,7 +7,7 @@ function Product({productKey}) {
 
     return (
         <div className="product">
-            <Link to={'/mods/' + productKey}>
+            <Link to={'/' + product.category + '/' + productKey}>
                 <img src={process.env.PUBLIC_URL + product.images[0]} alt={product.title}/>
                 <p className='title'>{product.title}</p>
             </Link>

@@ -12,6 +12,16 @@
     text-decoration: unset;
 }
 
+.title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    margin-top: 0;
+}
+
 @media only screen and (min-width: 409px) {
 
     .product {

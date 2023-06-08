@@ -15,6 +15,7 @@ function ProductDetail() {
             ></img>
             <div>
                 <h1>{product.title}</h1>
+                <h2>{product.subtitle}</h2>
                 <div className='content' dangerouslySetInnerHTML={{ __html: product.productText }}></div>
             </div>
         </div>

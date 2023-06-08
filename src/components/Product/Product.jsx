@@ -10,6 +10,7 @@ function Product({productKey}) {
             <Link to={'/' + product.category + '/' + productKey}>
                 <img src={process.env.PUBLIC_URL + product.images[0]} alt={product.title}/>
                 <p className='title'>{product.title}</p>
+                <p className='subtitle'>{product.subtitle}</p>
             </Link>
         </div>
     );

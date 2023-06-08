@@ -10,11 +10,11 @@ function ProductDetail() {
         <div className='product-detail'>
             <img
                 src={process.env.PUBLIC_URL + product.images[0]}
-                alt={product.caption}
+                alt={product.title}
                 className='product-image'
             ></img>
             <div>
-                <h1>{product.caption}</h1>
+                <h1>{product.title}</h1>
                 <div className='content' dangerouslySetInnerHTML={{ __html: product.productText }}></div>
             </div>
         </div>
